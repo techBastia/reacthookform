@@ -1,6 +1,6 @@
 import React from 'react'
 import {useForm} from 'react-hook-form'
-// import {DevTool} from '@hookform/devtools'
+import {DevTool} from '@hookform/devtools'
 
 export const Form = () => {
 
@@ -15,7 +15,7 @@ export const Form = () => {
             }
         }
     })
-    const {register, handleSubmit, formState} = form;
+    const {register, control, handleSubmit, formState} = form;
     const {errors} = formState 
     console.log('formState', formState);
     const onSubmit = (data) => {
@@ -61,7 +61,7 @@ export const Form = () => {
         <button>Submit</button>
         
     </form>
-    {/* <DevTool control={control}/> */}
+    <DevTool control={control}/>
     </>
   )
 }
