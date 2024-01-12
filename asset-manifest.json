@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reacthookform/static/css/main.e81b4046.css",
-    "main.js": "/reacthookform/static/js/main.d2e7d4ac.js",
+    "main.js": "/reacthookform/static/js/main.aaf5438e.js",
     "index.html": "/reacthookform/index.html",
     "main.e81b4046.css.map": "/reacthookform/static/css/main.e81b4046.css.map",
-    "main.d2e7d4ac.js.map": "/reacthookform/static/js/main.d2e7d4ac.js.map"
+    "main.aaf5438e.js.map": "/reacthookform/static/js/main.aaf5438e.js.map"
   },
   "entrypoints": [
     "static/css/main.e81b4046.css",
-    "static/js/main.d2e7d4ac.js"
+    "static/js/main.aaf5438e.js"
   ]
 }
