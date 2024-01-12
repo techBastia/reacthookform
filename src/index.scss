@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        gap: 10px;
+        label{
+            color: #fff;
+        }
+        input{
+            padding: 10px;
+            background: #ccc;
+            border: none;
+            border-radius: 5px;
+        }
+        .error{
+            color: red;
+        }
+        button{
+            color: #000;
+            background: #ccc;
+            padding: 10px 50px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+        }
+    }
+}
